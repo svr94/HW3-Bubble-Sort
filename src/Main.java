@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Random;
 
 public class Main {
@@ -11,9 +9,7 @@ public class Main {
 
 
     static int getRandomValue() {
-
-        int value = rdm.nextInt(minValue, maxValue);
-        return value;
+        return rdm.nextInt(minValue, maxValue);
     }
 
     static void printArray(int [] arr) {
@@ -31,7 +27,7 @@ public class Main {
             arr[i]=getRandomValue();
             i++;
         }
-        System.out.println("Arr");
+        System.out.println("-------Arr");
         printArray(arr);
 
 
@@ -45,7 +41,7 @@ public class Main {
                 }
             }
         }
-        System.out.println("After sorting Array");
+        System.out.println("-------After sorting Array");
         printArray(arr);
     }
 }
