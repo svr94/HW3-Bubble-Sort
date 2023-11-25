@@ -27,7 +27,7 @@ public class Main {
             arr[i]=getRandomValue();
             i++;
         }
-        System.out.println("-------Arr");
+        System.out.println("------Arr");
         printArray(arr);
 
 
@@ -41,7 +41,7 @@ public class Main {
                 }
             }
         }
-        System.out.println("-------After sorting Array");
+        System.out.println("------After sorting Array");
         printArray(arr);
     }
 }
