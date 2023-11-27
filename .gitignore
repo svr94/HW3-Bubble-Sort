@@ -1,29 +1,44 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# IntelliJ
+.idea/
 
-### Eclipse ###
-.apt_generated
+# Eclipse
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.settings/
 
-### NetBeans ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ
+bluej/
+
+# Javadoc
+/doc/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# NetBeans
 /nbproject/private/
+/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+*.iml
 
-### VS Code ###
-.vscode/
+# Gradle
+.gradle/
+/build/
 
-### Mac OS ###
+# Maven
+/target/
+
+# OS generated files
 .DS_Store
+Thumbs.db
